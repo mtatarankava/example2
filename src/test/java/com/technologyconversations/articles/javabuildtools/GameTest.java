@@ -57,7 +57,7 @@ public class GameTest {
         for (int index = 1; index <= score; index++) {
                 victor.winBall();
         }
-        assertThat(game, hasProperty("score", is("forty, love")));
+        assertThat(game, hasProperty("score", is("ffforty, love")));
     }
 
     @Test
